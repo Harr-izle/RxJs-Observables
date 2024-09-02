@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { interval, of, from, concat, Observable, throwError } from 'rxjs';
+import { interval, of, from, concat,  throwError } from 'rxjs';
 import { take, catchError, mergeMap, delay, switchMap } from 'rxjs/operators';
 
 
