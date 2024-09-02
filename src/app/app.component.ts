@@ -42,12 +42,13 @@ colors$.subscribe({
 
 
 // task three
-// const interval$ = interval(1000).pipe(take(10));
+const interval$ = interval(1000).pipe(take(10));
 
-// interval$.subscribe({
-//   next: (value) => console.log('Emitted value:', value),
-//   complete: () => console.log('Observable completed')
-// });
+interval$.subscribe({
+  next: (value) => console.log('Emitted value:', value),
+  complete: () => console.log('Observable completed')
+});
+
 
 
 
