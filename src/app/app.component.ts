@@ -31,14 +31,14 @@ numbers$.subscribe({
 
 // task two
 
-// const favoriteColors = ['Red', 'Pink', 'Green', 'Yellow', 'Purple'];
+const favoriteColors = ['Red', 'Pink', 'Green', 'Yellow', 'Purple'];
 
-// const colors$ = from(favoriteColors);
+const colors$ = from(favoriteColors);
 
-// colors$.subscribe({
-//   next: (value) => console.log('Emitted value:', value),
-//   complete: () => console.log('Observable completed')
-// });
+colors$.subscribe({
+  next: (value) => console.log('Emitted value:', value),
+  complete: () => console.log('Observable completed')
+});
 
 
 // task three
